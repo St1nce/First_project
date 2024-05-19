@@ -1,0 +1,315 @@
+/*------Обнуление-------*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+/*-------- Конец обнуления------------*/
+
+/* Дефолтные стили */
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+}
+
+:root {
+    --color-primary: #FBD784;
+}
+
+/* color: var(--color-primary); */
+
+/* Дефолтные стили */
+
+.first__block {
+    padding: 58px 85px 0 85px;
+    background-image: url('/src/img/Background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 1200px;
+}
+
+/*-------- header ------------*/
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.24px;
+    text-transform: capitalize;
+}
+
+.header__social-wrapp {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.header__socail-icons ul {
+    display: flex;
+    column-gap: 20px;
+}
+
+.header__text ul {
+    display: flex;
+    column-gap: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    list-style: none;
+}
+
+/*-------- header ------------*/
+
+/*-------- main-banner ------------*/
+.main-banner {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background: url('../src/img/Rectangle\ 3.png') 100% 100% 0 0; */
+}
+
+.main-banner__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.main-banner__subtitle {
+    color: var(--color-primary);
+    display: flex;
+    column-gap: 32px;
+    align-items: center;
+}
+
+.main-banner__subtitle p {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.brown-line {
+    background-color: var(--color-primary);
+    width: 72px;
+    height: 2px;
+    flex-shrink: 0;
+}
+
+.main-banner__title h1 {
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+
+.main-banner__title {
+    color: var(--Wei, #FFF);
+    font-family: Open Sans;
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+
+.main-banner__title span {
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.main-banner__scroll {
+    display: flex;
+    margin-top: 94px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.main-banner__scroll p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*-------- main-banner ------------*/
+
+/*-------- about holidays ------------*/
+
+.holidays {
+    border-top: 2px solid black;
+    box-shadow: 0 -100px 110px rgba(0, 0, 0, 1),
+        300px -100px 110px rgba(0, 0, 0, 0.6),
+        -300px -100px 110px rgba(0, 0, 0, 0.6);
+    background-color: black;
+}
+
+.holidays__wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 230px;
+    max-width: 1462px;
+    margin: 0 auto;
+}
+
+.holidays__wrapper-img img {
+    border-right: 2px solid black;
+}
+
+.holidays__wrapper-content {
+    width: 566px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    justify-content: center;
+}
+
+.main-banner__subtitle p {
+    color: var(--color-primary);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.holidays__wrapper-title h2 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.holidays__wrapper-text p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.holidays__wrapper-read {
+    display: flex;
+    column-gap: 12px;
+    color: var(--color-primary);
+}
+
+.holidays__wrapper-read p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*-------- about holidays ------------*/
+
+/*-------- main slider ------------*/
+
+.slider {
+    background-color: black;
+    padding-top: 250px;
+
+}
+
+.slider__wrapper {
+    margin: 0 auto;
+    width: 1461px;
+    height: 985px;
+    flex-shrink: 0;
+    background-image: url('/src/img/background-slider-first.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+/*-------- main slider ------------*/

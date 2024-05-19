@@ -1,0 +1,439 @@
+/*-------- adaptive ------------*/
+
+/*-------- header ------------*/
+@media (max-width: 1463px) {
+    .first__block {
+        background-position: inherit;
+        background-size: 100% 100%;
+        height: auto;
+        padding: 58px 85px 400px 85px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__socail-icons ul {
+        column-gap: 10px;
+    }
+
+    .header__text ul {
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .first__block {
+        padding: 38px 62px 200px 62px;
+    }
+
+    .header__logo {
+        font-size: 22px;
+    }
+
+    .header__text ul {
+        font-size: 16px;
+    }
+
+    .header__social-wrapp {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 540px) {
+    .first__block {
+        background-position: top;
+        background-size: 180%;
+    }
+
+    .header__text ul {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .first__block {
+        padding: 20px 28px 0 28px;
+    }
+
+    .header__logo {
+        font-size: 16px;
+    }
+
+    .header__text ul {
+        font-size: 12px;
+        row-gap: 7px;
+    }
+
+    .header__socail-icons img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 376px) {
+    .header__social-wrapp {
+        align-items: end;
+    }
+
+    .header__socail-icons ul {
+        column-gap: 6px;
+    }
+}
+
+@media (max-width: 331px) {
+    .first__block {
+        padding: 16px 24px 0 24px;
+    }
+
+    .header__logo {
+        font-size: 14px;
+    }
+
+    .header__text ul {
+        font-size: 11px;
+    }
+
+    .header__socail-icons img {
+        width: 18px;
+        height: 18px;
+    }
+
+}
+
+/*-------- header ------------*/
+
+/*-------- banner-text ------------*/
+
+@media (max-width: 1076px) {
+    .brown-line {
+        width: 56px;
+    }
+
+    .main-banner__title h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    .main-banner__title span {
+        font-size: 86px;
+    }
+}
+
+@media (max-width: 876px) {
+    .main-banner {
+        margin-top: 120px;
+    }
+
+    .main-banner__title h1 {
+        font-size: 60px;
+        line-height: 68px;
+    }
+
+    .main-banner__subtitle {
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 720px) {
+    .main-banner__title span {
+        font-size: 60px;
+    }
+
+    .main-banner__title h1 {
+        font-size: 52px;
+        line-height: 56px;
+    }
+
+    .main-banner__info {
+        row-gap: 16px;
+    }
+
+    .main-banner__subtitle p {
+        font-size: 16px;
+    }
+
+    .brown-line {
+        width: 40px;
+    }
+
+    .main-banner__scroll p {
+        font-size: 16px;
+    }
+
+    .main-banner__scroll img {
+        width: 12px;
+        height: fit-content;
+    }
+
+    .main-banner {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 631px) {
+    .main-banner__title h1 {
+        font-size: 36px;
+        line-height: 38px;
+    }
+
+    .main-banner__title span {
+        font-size: 42px;
+    }
+
+    .main-banner__subtitle p {
+        font-size: 12px;
+    }
+
+    .brown-line {
+        width: 26px;
+    }
+
+    .main-banner__subtitle {
+        column-gap: 12px;
+    }
+
+    .first__block {
+        padding: 30px 32px 150px 32px;
+    }
+}
+
+@media (max-width: 436px) {
+    .brown-line {
+        display: none;
+    }
+
+    .main-banner__title span {
+        margin-left: -1px;
+    }
+
+    .main-banner__subtitle p {
+        font-size: 10px;
+    }
+
+    .main-banner__title span {
+        font-size: 32px;
+    }
+
+    .main-banner__title h1 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 376px) {
+    .first__block {
+        padding: 30px 32px 124px 32px;
+    }
+
+    .main-banner {
+        margin-top: 80px;
+    }
+
+    .main-banner__subtitle p {
+        letter-spacing: 3px;
+    }
+
+    .main-banner__title h1 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .main-banner__scroll p {
+        font-size: 14px;
+    }
+
+    .main-banner__scroll {
+        column-gap: 6px;
+    }
+
+    .main-banner__scroll img {
+        width: 10px;
+    }
+
+    .main-banner__scroll {
+        margin-top: 70px;
+    }
+}
+
+/*-------- banner-text ------------*/
+
+/*-------- about holidays ------------*/
+
+@media (max-width: 1800px) {
+    .holidays__wrapper {
+        column-gap: 130px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .holidays__wrapper {
+        column-gap: 100px;
+    }
+
+    .holidays__wrapper-img img {
+        width: 500px;
+        height: fit-content;
+    }
+
+    .holidays__wrapper-title h2 {
+        font-size: 56px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .holidays__wrapper-content {
+        width: 450px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .holidays__wrapper {
+        column-gap: 60px;
+    }
+
+    .holidays__wrapper-title h2 {
+        line-height: 62px;
+    }
+
+    .holidays__wrapper-img img {
+        width: 450px;
+    }
+
+    .holidays__wrapper-content {
+        width: 400px;
+        row-gap: 14px;
+    }
+
+    .holidays__wrapper-content .holidays-subtitle p {
+        letter-spacing: 4px;
+    }
+
+    .holidays__wrapper-content .holidays-subtitle {
+        column-gap: 20px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .holidays__wrapper-img img {
+        width: 350px;
+    }
+
+    .holidays__wrapper-text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .holidays__wrapper-title h2 {
+        line-height: 44px;
+        font-size: 36px;
+    }
+
+    .holidays__wrapper-read p {
+        font-size: 14px;
+    }
+
+    .holidays__wrapper-content {
+        column-gap: 20px;
+        width: 350px;
+    }
+
+    .holidays__wrapper-content .holidays-subtitle p {
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 860px) {
+    .holidays__wrapper {
+        column-gap: 40px;
+    }
+
+    .holidays__wrapper-content {
+        width: 320px;
+    }
+
+    .holidays__wrapper-content .holidays-subtitle p {
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 769px) {
+    .holidays__wrapper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+    }
+
+    .holidays__wrapper-content,
+    .holidays__wrapper-img img {
+        width: 500px;
+    }
+
+    .holidays__wrapper-title h2 {
+        line-height: 60px;
+        font-size: 52px;
+    }
+
+    .holidays {
+        box-shadow: 0 0 0;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .holidays__wrapper-content,
+    .holidays__wrapper-img img {
+        width: 400px;
+    }
+
+    .holidays__wrapper-title h2 {
+        line-height: 44px;
+        font-size: 36px;
+    }
+
+    .holidays__wrapper {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 540px) {
+    .holidays__wrapper {
+        padding-top: 80px;
+    }
+
+    /* .holidays {
+        box-shadow: 0px -5px 15px rgba(0, 0, 0, 1);
+    } */
+}
+
+@media (max-width: 470px) {
+
+    .holidays__wrapper-content,
+    .holidays__wrapper-img img {
+        width: 300px;
+    }
+
+    .holidays__wrapper-title h2 {
+        line-height: 37px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 365px) {
+    .holidays__wrapper {
+        padding-top: 30px;
+    }
+
+    .holidays__wrapper-content,
+    .holidays__wrapper-img img {
+        width: 270px;
+    }
+
+    .holidays__wrapper-title h2 {
+        line-height: 37px;
+        font-size: 30px;
+    }
+}
+
+/*-------- about holidays ------------*/
